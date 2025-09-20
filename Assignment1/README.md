@@ -6,7 +6,7 @@ In assignment 1, we want you to:
 
 + Run **[FinRL-Trading](https://github.com/AI4Finance-Foundation/FinRL-Trading)** to get a basic understanding of what you will do in this semester.
 + Design a portfolio using the selected stocks, and learn some fundamental information of quantitative trading (especially stock selection part).
-+ Summarize your result in a very brief research report. Submit your codes onto GitHub repo in a new folder called `Assignment1_Name_CUID`.
++ Summarize your result in a very brief research report. Submit your codes onto GitHub repo in a new folder called `Assignment1_Name_UNI`.
 
 Assignment 1 Report Submission Due Day: Oct 5th, 2025.
 
