@@ -92,7 +92,7 @@ Thus, your main task is to build a **Mean-Variance Portfolio** like the portfoli
 
 ![image-20250918215104177](./assets/image-20250918215104177.png)
 
-This portfolio has the largest sharpe ratio among all the possible combinations. You can have the best base model return using this portfolio.
+This portfolio has the largest sharpe ratio among all the possible combinations. You can have the best base model return using this portfolio. You can refer to `fundamental_portfolio.py` to implement this. However, we suggest you to try all by yourself, this is a very easy task!
 
 + Reminder: you can use `minimize` in `scipy` to calculate this MVP.
 
@@ -117,7 +117,7 @@ You should generate a csv file with information below:
 
 ## 3. Portfolio Trading Backtest
 
-We will provide you with backtest code so you can check your portfolio's performance on historical data. This code will generate a portfolio market value chart and the strategy's performance metrics. In the code, the whole portfolio will only trade on "trade_date" according to your portfolio. And during the holding period, there will be no trades. You can also try other strategies and trading signals if you are interested. Here is an example of the results:
+We will provide you with backtest code (`backtest.py`) so you can check your portfolio's performance on historical data. This code will generate a **daily portfolio market value chart** and the strategy's performance metrics. In the code, the whole portfolio will only trade on "trade_date" according to your portfolio. And during the holding period, there will be no trades. You can also try other strategies and trading signals if you are interested. Here is an example of the results (here we want you to start backtest from **2018-01-01**):
 
 ![image-20250910123306370](./assets/image-20250910123306370.png)
 
@@ -131,7 +131,7 @@ Win Rate: 54.58%
 Information Ratio: 0.3078
 ```
 
-**You should add your portfolio value chart and these performance measurement metrics into your report.**
+**You should add your daily portfolio value chart and these performance measurement metrics into your report.**
 
 ## 4. Research Report for Assignment 1
 
