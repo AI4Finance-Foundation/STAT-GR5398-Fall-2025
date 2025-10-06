@@ -1,1 +1,10 @@
-
+# 覆盖写入 .gitignore（根目录）
+Set-Content -Path .gitignore -Value @"
+Assignment1/Submissions/*/data_processor/*.csv
+*.pkl
+*.zip
+*.ckpt
+*.npy
+.ipynb_checkpoints/
+__pycache__/
+"@

@@ -1,0 +1,9 @@
+Add-Content -Path .gitignore -Value @"
+Assignment1/Submissions/*/data_processor/*.csv
+*.pkl
+*.zip
+*.ckpt
+*.npy
+.ipynb_checkpoints/
+__pycache__/
+"@
